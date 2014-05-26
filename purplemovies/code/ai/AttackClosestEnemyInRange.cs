@@ -89,7 +89,7 @@ public class AttackClosestEnemyInRange : MonoBehaviour
 	void approachTarget()
 	{
 		// Tell nav-agent to go towards the enemy:
-		navMeshAgent.SetDestination( targetTransform.position );
+//		navMeshAgent.SetDestination( targetTransform.position );
 	}
 
 	void startAttack ()

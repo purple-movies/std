@@ -23,6 +23,14 @@ ModelImporter:
     100034: Cylinder_007
     100036: Cylinder_008
     100038: Cylinder_009
+    100040: point
+    100042: point_001
+    100044: point_002
+    100046: point_003
+    100048: point_004
+    100050: point_005
+    100052: point_006
+    100054: point_007
     400000: BezierCircle
     400002: Circle
     400004: Circle_001
@@ -43,6 +51,14 @@ ModelImporter:
     400034: Cylinder_007
     400036: Cylinder_008
     400038: Cylinder_009
+    400040: point
+    400042: point_001
+    400044: point_002
+    400046: point_003
+    400048: point_004
+    400050: point_005
+    400052: point_006
+    400054: point_007
     2300000: BezierCircle
     2300002: Circle
     2300004: Circle_001
@@ -62,6 +78,14 @@ ModelImporter:
     2300032: Cylinder_007
     2300034: Cylinder_008
     2300036: Cylinder_009
+    2300038: point
+    2300040: point_001
+    2300042: point_002
+    2300044: point_003
+    2300046: point_004
+    2300048: point_005
+    2300050: point_006
+    2300052: point_007
     3300000: BezierCircle
     3300002: Circle
     3300004: Circle_001
@@ -81,6 +105,14 @@ ModelImporter:
     3300032: Cylinder_007
     3300034: Cylinder_008
     3300036: Cylinder_009
+    3300038: point
+    3300040: point_001
+    3300042: point_002
+    3300044: point_003
+    3300046: point_004
+    3300048: point_005
+    3300050: point_006
+    3300052: point_007
     4300000: Circle_007
     4300002: Circle_006
     4300004: Circle_005
@@ -100,6 +132,14 @@ ModelImporter:
     4300032: Cylinder_002
     4300034: Cylinder_001
     4300036: Cylinder
+    4300038: point_007
+    4300040: point_006
+    4300042: point_005
+    4300044: point_004
+    4300046: point_003
+    4300048: point_002
+    4300050: point_001
+    4300052: point
     7400000: Default Take
     9500000: //RootNode
   materials:

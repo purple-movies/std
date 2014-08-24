@@ -3,21 +3,11 @@ using System.Collections;
 
 public class LevelMaster : MonoBehaviour
 {
-	private GameMaster gameMaster;
+	protected GameMaster gameMaster;
 
-	void Awake()
+	protected void Awake()
 	{
 		gameMaster = GlobalOverlord.instance.gameMaster;
 		Debug.Log( "my master :" + gameMaster );
 	}
-
-//	// Use this for initialization
-//	void Start () {
-//	
-//	}
-//	
-//	// Update is called once per frame
-//	void Update () {
-//	
-//	}
 }

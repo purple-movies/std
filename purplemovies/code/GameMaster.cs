@@ -4,6 +4,7 @@ using System.Collections;
 public class GameMaster : MonoBehaviour
 {
 	GlobalOverlord overlord;
+	public string levelName = "level_01";
 
 	void Awake ()
 	{
@@ -13,16 +14,9 @@ public class GameMaster : MonoBehaviour
 		Debug.Log( "overlord : " + this.overlord );
 		overlord.gameMaster = this;
 	}
-
-	// Use this for initialization
+	
 	void Start ()
 	{
-		Debug.Log( "Start !!" );
-		Application.LoadLevel("level_01");
+		Application.LoadLevel (levelName);
 	}
-//	
-//	// Update is called once per frame
-//	void Update () {
-//	
-//	}
 }

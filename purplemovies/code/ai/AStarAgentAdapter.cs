@@ -7,7 +7,7 @@ namespace purplemovies.ai
 	
 	public class AStarAgentAdapter : PathAgentAdapterBase, IPathFindingAgent
 	{
-		const int OBSTACLE_LAYER = 10;
+//		const int OBSTACLE_LAYER = 10;
 
 		float stoppingDistance = .25f;
 
@@ -77,22 +77,22 @@ namespace purplemovies.ai
 		public void stop ()
 		{
 			stopped = true;
-//			collider.height = 5.5f;
-			gameObject.layer = OBSTACLE_LAYER;
-//			gameObject.transform.localScale = new Vector3(2, 2, 2);
-			gameObject.transform.localScale = new Vector3(4, 4, 4);
-			AstarPath.active.UpdateGraphs( gameObject.collider.bounds );
-//			gameObject.transform.localScale = new Vector3(1, 1, 1);
+////			collider.height = 5.5f;
+//			gameObject.layer = OBSTACLE_LAYER;
+////			gameObject.transform.localScale = new Vector3(2, 2, 2);
+//			gameObject.transform.localScale = new Vector3(4, 4, 4);
+//			AstarPath.active.UpdateGraphs( gameObject.collider.bounds );
+////			gameObject.transform.localScale = new Vector3(1, 1, 1);
 		}
 		
 		public float radius {
 			get {
-//				return characterController.radius;
-				return collider.radius;
+				return characterController.radius;
+//				return collider.radius;
 			}
 			set {
 //				characterController.radius = value;
-				collider.radius = value;
+//				collider.radius = value;
 			}
 		}
 		

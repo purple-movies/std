@@ -14,6 +14,17 @@ namespace purplemovies.ai
 		}
 
 		#region IPathFindingAgent implementation
+
+		public void calculatePath ()
+		{
+			throw new System.NotImplementedException ();
+		}
+
+		public void onUpdate ()
+		{
+			throw new System.NotImplementedException ();
+		}
+
 		public bool setDestination (Vector3 destination) {	throw new System.NotImplementedException (); }
 		public void stop ()	{	throw new System.NotImplementedException (); }
 		
